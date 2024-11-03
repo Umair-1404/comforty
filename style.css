@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-cart{
+    width: 200px;
+}
+
+
+.btn-primary{
+    background-color: #1ea8df;
+}
+
+
+.banner-text-sec{
+    padding: 130px;
+    font-weight: 900;
+}
+
+.banner-text{
+    font-size: 47px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    margin: 10px 0;
+}
+
+.discount{
+    width: 150px;
+    height: 143px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    right: 12%;
+    padding: 30px;
+    text-align: center;
+}
+
+.discount-tag{
+    color: red;
+    font-weight: 900;
+}
+
+
+.card-img-top{
+    height: 300px;
+}
