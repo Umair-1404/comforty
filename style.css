@@ -50,3 +50,85 @@
 .card-img-top{
     height: 300px;
 }
+
+.customer{
+    margin-left: 25px;
+}
+.card-w{
+    width: 43%;
+}
+
+.fourthSection{
+    padding: 1.5rem;
+}
+.icons-li{
+    font-size: 25px;    
+    margin: 10px;
+}
+
+.footer-list{
+    font-size: 13px;
+    margin: 13px 2px;
+}
+
+footer,header{
+    background-color: white;
+}
+
+
+@media (max-width: 768px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .banner-text-sec {
+      padding: 20px; 
+    }
+  
+    .banner-text {
+      font-size: 25px;
+      margin: 5px 0; 
+    }   
+    .banner-img{
+        width: 100%;
+    }
+  
+    .discount {
+      width: 65px; 
+      height: 65px; 
+      padding: 15px; 
+      top: 85%; 
+      right: 5%; 
+    }
+  
+    .discount-tag {
+      font-size: 11px; 
+    }
+
+    .discount p{
+        font-size: 10px;
+    }
+
+    .fourthSection{
+        padding: 0px;
+    }
+    
+    .fourthSection .row {
+        display: grid;
+        grid-template-columns: auto;
+
+      }
+    
+      .fourthSection .card-w {
+        width: 100%;
+        margin-bottom: 20px; 
+      }
+    
+    .form-control{
+        font-size: 0.9rem;
+    }
+  }
+  
